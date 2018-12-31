@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fafafa">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#fafafa">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+    <GridView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalSpacing="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_weight="1"
+        android:stretchMode="columnWidth"
+        android:background="@drawable/border_shadow"
+        android:id="@+id/gridviewcatalog">
+    </GridView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PRICE DETAILS"
+                android:textSize="15dp"/>
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:layout_marginTop="2dp"
+                 android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Price"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="-20dp"
+                android:textColor="@color/black"
+                android:text="₹"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="-18dp"
+                android:textColor="@color/black"
+                android:id="@+id/cart_totalprice1"
+                android:text="2000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Amount Payable"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="-10dp"
+                android:textColor="@color/black"
+                android:text="₹"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="-18dp"
+                android:textColor="@color/black"
+                android:id="@+id/cart_totalprice2"
+                android:text="2000"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/confim_btn"
+                android:textColor="@color/white"
+                android:background="@color/primary_darker"
+                android:text="Confirm"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

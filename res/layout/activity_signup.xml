@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:fitsSystemWindows="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView android:src="@mipmap/ic_launcher"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Name Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Name" />
+        </android.support.design.widget.TextInputLayout>
+        <!-- username Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_uname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="UserName" />
+        </android.support.design.widget.TextInputLayout>
+        <!-- Address Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:hint="Address(Temporary)" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Address Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_address2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress"
+                android:hint="Address(Permanent)" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- latitude Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_latitide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:inputType="textPostalAddress"
+                android:hint="latitude" />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <!-- longitude Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <EditText android:id="@+id/input_longitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:inputType="textPostalAddress"
+                android:hint="longitude" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Imagebuuton-->
+            <android.support.v7.widget.AppCompatImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgbtn_loc"
+                android:src="@android:drawable/ic_menu_mylocation"/>
+        </LinearLayout>
+
+        <!--  Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <!-- mobile number -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Mobile Number(Home)" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- mobile number -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_mobile2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Mobile Number(office)" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Re-enter Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_reEnterPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Re-enter Password"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- dropdownlist of states -->
+        <android.support.v7.widget.AppCompatSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="State"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/states"
+                android:prompt="@string/spiner"
+                android:spinnerMode="dialog">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+        <!--city text box -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="City"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--customer type textview-->
+        <android.support.v7.widget.AppCompatTextView
+
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPersonName"
+            android:text="User Type"
+            android:textSize="15dp"
+            android:id="@+id/user_type">
+        </android.support.v7.widget.AppCompatTextView>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:id="@+id/radioGroup"
+            android:layout_height="wrap_content">
+                <!--radiobuttons-->
+                <android.support.v7.widget.AppCompatRadioButton
+
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="8dp"
+                         android:id="@+id/one"
+                         android:layout_marginBottom="8dp"
+                         android:checked="true"
+                         android:text="Type One">
+                </android.support.v7.widget.AppCompatRadioButton>
+
+                <!--radiobuttons-->
+                <android.support.v7.widget.AppCompatRadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/two"
+                    android:layout_marginBottom="8dp"
+                    android:checked="false"
+                    android:text="Type two">
+                </android.support.v7.widget.AppCompatRadioButton>
+
+                <!--radiobuttons-->
+                <android.support.v7.widget.AppCompatRadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/three"
+                    android:layout_marginBottom="8dp"
+                    android:checked="false"
+                    android:text="Type three">
+                </android.support.v7.widget.AppCompatRadioButton>
+
+            <!--radiobuttons-->
+            <android.support.v7.widget.AppCompatRadioButton
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:id="@+id/four"
+                android:layout_marginBottom="8dp"
+                android:checked="false"
+                android:text="Type four">
+            </android.support.v7.widget.AppCompatRadioButton>
+
+            <!--radiobuttons-->
+            <android.support.v7.widget.AppCompatRadioButton
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:id="@+id/five"
+                android:layout_marginBottom="8dp"
+                android:checked="false"
+                android:text="Type five">
+            </android.support.v7.widget.AppCompatRadioButton>
+        </RadioGroup>
+        <!-- Signup Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="Create Account"/>
+
+    </LinearLayout>
+</ScrollView>

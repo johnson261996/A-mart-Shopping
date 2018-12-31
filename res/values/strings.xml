@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AveRd App</string>
+    <string name="spiner">Select your State</string>
+
+    <!-- Navigation Drawer menu labels-->
+    <string name="nav_home">Home</string>
+    <string name="nav_myorder">My order</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_Admin_Panel">Admin Panel</string>
+    <string name="nav_about">About Us</string>
+    <string name="nav_Logout">Logout</string>
+    <string name="nav_cart">My Cart</string>
+    <string name="nav_signup">Sign up</string>
+    <string name="nav_signin">Sign in</string>
+    <string name="action_rel">Relevance</string>
+    <string name="action_popu">Popularity</string>
+    <string name="action_plth">Price-Low to high</string>
+    <string name="action_phtl">price-High to Low</string>
+    <string name="action_new">Newest First</string>
+    <string name="action_cart">Cart</string>
+    <string name="nav_edit_profile">Edit Profile</string>
+
+    <!--Toolbar titles when navigation drawer item is selected -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_home</item>
+        <item>@string/nav_cart</item>
+        <item>@string/nav_myorder</item>
+        <item>@string/nav_profile</item>
+        <item>@string/nav_Admin_Panel</item>
+        <item>@string/nav_about</item>
+        <item>@string/nav_Logout</item>
+    </string-array>
+
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string name="action_user_name">Change user Name</string>
+    <string name="action_photo">change photo</string>
+    <string name="action_setting">Setting</string>
+    <string name="action_search">Search</string>
+</resources>

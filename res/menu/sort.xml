@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_relevance"
+        android:title="@string/action_rel"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sort_pop"
+        android:title="@string/action_popu"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sort_lth"
+        android:orderInCategory="100"
+        android:title="@string/action_plth"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sort_htl"
+        android:orderInCategory="100"
+        android:title="@string/action_phtl"
+        app:showAsAction="never" />
+</menu>
